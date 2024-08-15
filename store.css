@@ -1,0 +1,215 @@
+
+#herooo{
+    background-image: url(./compo2/haikyuu.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  justify-content:flex-end;
+    font-size: 150%;
+    color: black;
+}
+
+#herooo h1{
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 80px;
+   
+    font-family:cursive;
+}
+
+
+#product11{
+    text-align: center;
+    font-weight: 800;
+    font-family: cursive;
+    text-transform: uppercase;
+  
+}
+
+#product11 .pro-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+    
+}
+#product11 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+#product11 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product11 .pro img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#product11 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+
+#product11 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+text-align: center;
+}
+
+#product11 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15;
+    font-weight: 700;
+    color: #170a1f;
+    text-align: center;
+}
+
+.banner h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.banner span{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: small;
+}
+.banner{
+    background-color: black;
+    height: 10%;
+}
+
+#banner1{
+    margin-top: 10px;
+    width: 100%;
+    filter: blur(1px);
+}
+
+
+#banner3{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+ }
+#banner3 .banner-box{
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("./compo2/season.jpg");
+    min-width: 20%; 
+    height: 28vh;
+    background-size: cover;
+    background-position: center;
+    padding: 23px;
+    margin-bottom: 20px;
+}
+#banner3 .banner-box2{
+    background-image: url("./compo2/banner3.1.jpg");
+}
+
+#banner3 .banner-box3{
+    background-image: url("./compo2/cow.jpeg");
+    
+}
+#banner3 h1,h2{
+    color: #e94d4d;
+    font-weight: 900;
+    font-size: 25px;
+ 
+} 
+.ra{
+    overflow: hidden;
+}
+#herooo {
+    font-size: 150%; /* desktop */
+  }
+  
+  @media screen and (max-width: 768px) {
+    #herooo {
+      font-size: 120%; /* tablet */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #herooo {
+      font-size: 100%; /* phone */
+      padding: 10px 5px;
+    }
+  }
+
+  #product11 .pro {
+    width: 23%; /* desktop */
+    padding: 10px 12px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #product11 .pro {
+      width: 45%; /* tablet */
+      padding: 10px 8px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #product11 .pro {
+      width: 100%; /* phone */
+      padding: 10px 4px;
+    }
+  }
+
+  #banner3 .banner-box {
+    min-width: 20%; /* desktop */
+    padding: 23px;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #banner3 .banner-box {
+      min-width: 45%; /* tablet */
+      padding: 15px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #banner3 .banner-box {
+      min-width: 100%; /* phone */
+      padding: 10px;
+      margin-bottom: 0;
+    }
+  }
+
+  #icon{
+    width: 50px;
+    height: 50px;
+}
+#icon:hover{
+    transition: all ease-in-out 0.5s;
+    transform: scale(1.2);
+  }

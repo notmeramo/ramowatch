@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 30px;
+}
+.red{
+  text-align: center;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 90px;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position:sticky;
+  top: 0;
+  left: 0;
+  
+  width: 100vw;
+}
+.hellooo{
+  display: flex;
+  justify-content: space-between; 
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar li{
+      list-style: none;
+      padding: 0 20px;
+      position: relative;
+
+}
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+  color: #236279;
+}
+#navbar li a.active::after
+#navbar li a:hover::after{
+      
+      width: 30%;
+      height: 2px;
+      background: #088178;
+      position: absolute;
+      bottom: -4px;
+      left: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content:space-between;
+  background: #e3e6f3; 
+  flex-direction: row-reverse;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+ overflow :hidden;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+footer .logo{
+  margin-bottom: 30px;
+}
+footer h4{
+  font-size: 14px;
+  
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+footer .follow{
+padding-left: 10px;
+}
+footer .follow i{
+  color:#465b52;
+  padding-right: 4px;
+}
+/* 
+landing page */
+
+
+.hentai video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(10px);
+  position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+  opacity: 80%;
+}
+.App p{
+cursor:default;
+font-family: fantasy;
+opacity: 80%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Streaming page */
+.fulll{
+  overflow: hidden;
+}
+
+.detail{
+  background-color: #e3e6f3;
+  padding: 10px 10px;
+}
+.detail p{
+  font-size: 15px;
+}
+.detail span{
+  font-weight: 700;
+}
+.visual{
+  background-color: #000;
+}
+
+.opiece video{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+#heyy{
+  color: #000000;
+  float: left;
+
+}
+#hii{
+  color: rgb(0, 0, 0);
+  float: right;
+ 
+}
+#heyy ,#hii{
+  margin: 10px 10px;
+display: inline-block;
+outline: 0;
+border: 0;
+cursor: pointer;
+border-radius: 8px;
+padding: 14px 24px 16px;
+font-size: 18px;
+font-weight: 700;
+line-height: 0;
+transition: transform 200ms,background 200ms;
+background: transparent;
+color: #000000;
+box-shadow: 0 0 0 3px #000000 inset;}
+button:hover{
+    transform: translateY(-2px);
+}
+

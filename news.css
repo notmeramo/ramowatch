@@ -1,0 +1,231 @@
+.ramonn{
+  overflow: hidden;
+  background-image:url(./movimages/garden.jpg);
+  background-size: cover;
+}
+.containerrrr {
+  max-width: 1100px;
+  padding: 0px 20px;
+  margin: auto;
+  }
+
+
+.sports-category,
+.entertainment-category,
+.technology-category {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 2px 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin: 0.5rem 0rem;
+}
+
+/* showcasee */
+.showcasee {
+  padding-top: 0%;
+  position: relative;
+  color: white;
+  height: 80vh;
+  background: url(./compo2/desktop-1920x1080.jpg) center center/cover;
+}
+
+.showcasee::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.showcasee .containerrrr {
+  height: inherit;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcasee .text-content {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.showcasee .text-content h1 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin: 10px 0px;
+  letter-spacing: 1px;
+  font-family: var(--headings-font);
+}
+
+.showcasee .text-content p:nth-child(3) {
+  text-align: justify;
+}
+
+.showcasee p {
+  line-height: 1.5rem;
+  padding: 0.5rem 0rem;
+}
+
+.super {
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (min-width: 600px) {
+  .showcasee .containerrrr {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .showcasee .containerrrr {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20%;
+  }
+
+  .showcasee .text-content {
+    text-align: left;
+    padding: 20px 50px;
+  }
+}
+
+/*Block of news*/
+.editor-h1 {
+  font-size: 1.6rem;
+  margin: 1rem 0rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 10%;
+}
+
+.articles > a:nth-child(1),
+.articles > a:last-child {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  grid-column: 1 / span 1;
+  align-items: center;
+}
+
+.articles > a:last-child {
+  grid-column: 1 / span 1;
+}
+
+.articles > a:nth-child(2) {
+  background-color: rgb(177, 175, 175);
+  color: rgb(0, 0, 0);
+}
+
+.articles > a:nth-child(6) {
+  background-color: rgb(177, 175, 175);
+  color: rgb(5, 5, 5);
+}
+
+.card {
+  background-color: rgb(177, 175, 175);
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 3px 5px 10px rgb(199, 199, 199);
+}
+
+.articles img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (min-width: 600px) {
+  .articles {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .articles > a:nth-child(1),
+  .articles > a:last-child {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1 / span 2;
+  }
+
+  .articles > a:nth-child(2) {
+    background-color: rgb(177, 175, 175);
+    color: rgb(0, 0, 0);
+  }
+
+  .articles > a:nth-child(6) {
+    background-color: rgb(177, 175, 175);
+    color: rgb(5, 5, 5);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .articles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+/* banner*/
+
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("./901312.png");
+  background-repeat:initial;
+  background-position: 1% 5%;
+  background-color: #000;
+}
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+
+#newsletter span{
+  color: #ffbd27;
+}
+.newstext{
+  margin-left: 15px;
+}
+
+#icon{
+  width: 50px;
+  height: 50px;
+}
+#icon:hover{
+  transition: all ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+
+.card:hover{
+  transition: all ease-in-out 0.5s;
+  transform: scale(1.02);
+}
+.editor-h1{
+  text-align: center;
+  color: white;
+}
